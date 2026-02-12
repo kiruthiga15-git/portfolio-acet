@@ -1,0 +1,104 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* Page base – peacock soft background */
+body{
+  font-family:Arial, sans-serif;
+  line-height:1.6;
+  background:#f5fbfb;
+  color:#0f172a;
+  padding:20px;
+}
+
+/* Header – peacock main color */
+header{
+  background:linear-gradient(90deg,#0f766e,#0b4f6c);
+  color:#ffffff;
+  padding:20px;
+  text-align:center;
+  border-radius:10px;
+}
+
+header h1{
+  margin-bottom:10px;
+}
+
+/* Navbar */
+nav ul{
+  list-style:none;
+  display:flex;
+  justify-content:right;
+  gap:15px;
+}
+
+nav a{
+  color:#ccfbf1;
+  text-decoration:none;
+  font-weight:500;
+}
+
+nav a:hover{
+  color:#ffffff;
+}
+
+/* Sections – common style */
+section{
+  margin:40px 0;
+  padding:22px;
+  border-radius:14px;
+}
+
+/* Peacock theme – different backgrounds */
+
+section:nth-of-type(1){
+  background:#e0f7f5;   /* About */
+}
+
+section:nth-of-type(2){
+  background:#e6f0ff;   /* Education */
+}
+
+section:nth-of-type(3){
+  background:#e7f8f0;   /* Skills */
+}
+
+section:nth-of-type(4){
+  background:#f0f4ff;   /* Achievements */
+}
+
+/* Headings */
+h2{
+  margin-bottom:10px;
+  color:#0f766e;
+}
+
+/* Text */
+p{
+  color:#334155;
+}
+
+ul li{
+  margin-bottom:6px;
+  color:#334155;
+}
+
+/* Project card (if used later) */
+.project-card{
+  background:#ffffff;
+  padding:15px;
+  margin:10px 0;
+  border-radius:10px;
+  border-left:4px solid #0f766e;
+}
+
+/* Footer */
+footer{
+  text-align:center;
+  margin-top:40px;
+  padding-top:10px;
+  color:#475569;
+  border-top:1px solid #dbeafe;
+}
